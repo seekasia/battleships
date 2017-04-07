@@ -43,7 +43,7 @@ apt-get -y install git-core
 cd ~
 # ignore SSH host authenticity check
 echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
-git clone git@github.com:jhibberd/battleships.git
+git clone git@github.com:seekasia/battleships.git
 ln -s ~/battleships/src/battleships /usr/local/lib/python2.7/dist-packages/battleships
 mkdir /etc/battleships
 ln -s ~/battleships/cfg/logging.yaml /etc/battleships/logging.yaml
